@@ -1,21 +1,42 @@
-git status
 #gives the status of the recent files to add or that were modified
+git status
 
-git add .
 #adds all changes to the git like new files that were created and old files that were modified
+git add .
 
-git clone URL
+
 #clones the existing repository from github
+git clone URL
 
 git init
 git config --global user.name   
 git confif --global user.email
 git add README.md 
 
+
+#takes a commit snapshot and puts in the staging environment and it will move to main
 git commit -m "This is First commit"
+
 git branch
 git remote add origin URL
 
 git remote -v
 git push origin main
 
+git restore --staged "filename"
+
+
+# diff before committing
+git diff 
+
+#after commiting
+git diff --staged
+
+#creating new branch
+git branch branchname
+
+#to start using the new branch
+git checkout branchname
+
+#to check which branch you are currently in
+git branch 
