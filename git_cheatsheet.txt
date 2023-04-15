@@ -1,0 +1,3 @@
+
+git add .
+#adds all changes to the git like new files that were created and old files that were modified
